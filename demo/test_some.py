@@ -1,11 +1,11 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from time import sleep
-
-
-driver = webdriver.Chrome()
-driver.maximize_window()
-driver.get('https://www.qa-practice.com/elements/button/simple')
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from time import sleep
+#
+#
+# driver = webdriver.Chrome()
+# driver.maximize_window()
+# driver.get('https://www.qa-practice.com/elements/button/simple')
 # click_button = driver.find_element(By.ID, 'submit-id-submit')
 # click_button.click()
 
@@ -19,9 +19,10 @@ driver.get('https://www.qa-practice.com/elements/button/simple')
 # driver.execute_script('window.scrollTo(0, document.body.scrollHeight)')
 # link.click()
 
-click_button4 = driver.find_element(By.XPATH, '//input[@class="btn btn-primary"]')
-click_button4.click()
+# click_button4 = driver.find_element(By.XPATH, '//input[@class="btn btn-primary"]')
+# click_button4.click()
+#
+# sleep(5)
 
-sleep(5)
-
-
+def test_one():
+    assert 1 == 1
